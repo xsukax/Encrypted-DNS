@@ -29,8 +29,20 @@ Simple Batch Script Make Simple & Easy Encrypted DNS queries using dnsproxy comm
 - [Youtube Channel](https://www.youtube.com/channel/UCnjgUjaBmoYhBFnkTgwKeCA)
 
 ## FAQ
-#### Question 1
-Answer 1
+#### How This Batch Script Works?
+- It Downloads dnsproxy.exe file to the script directory.
+- It show list of your Network Interfaces and let you choose which one you like to use (Ethernet or Wifi)
+- It let you choose the dns service provider.
+- Once you choose the provider it uses dnsproxy application via commandline.
+- For example:
+```javascript
+start /min cmd.exe @cmd /k "dnsproxy.exe /u https://dns.google/dns-query /b 1.1.1.1:53 /v /o Google.log & call Encrypted-DNS-xsukax.bat"
+```
+- Then it set dns ip to localhost ip via command:
+```javascript
+netsh interface ip set dns name="%_interface%" static 127.0.0.1
+```
+- You can set DNS to default configuration via Default-DHCP-DNS.bat
 #### Question 2
 Answer 2
 
