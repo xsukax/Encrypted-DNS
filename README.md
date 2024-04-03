@@ -26,7 +26,7 @@ Simple Batch Script Make Simple & Easy Encrypted DNS queries using dnsproxy comm
 - [@xsukax](https://github.com/xsukax)
 
 ## Demo
-[Youtube Channel](https://www.youtube.com/channel/UCnjgUjaBmoYhBFnkTgwKeCA)
+- [Youtube Channel](https://www.youtube.com/channel/UCnjgUjaBmoYhBFnkTgwKeCA)
 
 ## FAQ
 #### Question 1
