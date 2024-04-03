@@ -24,6 +24,7 @@ Simple Batch Script Make Simple & Easy Encrypted DNS queries using dnsproxy comm
 
 ## Authors
 - [@xsukax](https://github.com/xsukax)
+- [@AdguardTeam](https://github.com/AdguardTeam)
 
 ## Demo
 - [Youtube Channel](https://www.youtube.com/channel/UCnjgUjaBmoYhBFnkTgwKeCA)
@@ -31,7 +32,7 @@ Simple Batch Script Make Simple & Easy Encrypted DNS queries using dnsproxy comm
 ## FAQ
 #### How This Batch Script Works?
 - It Downloads dnsproxy.exe file to the script directory.
-- It show list of your Network Interfaces and let you choose which one you like to use (Ethernet or Wifi)
+- It show list of your Network Interfaces and let you choose which one you like to use (Ethernet or Wifi).
 - It let you choose the dns service provider.
 - Once you choose the provider it uses dnsproxy application via commandline.
 - For example:
