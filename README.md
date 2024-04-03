@@ -43,8 +43,8 @@ start /min cmd.exe @cmd /k "dnsproxy.exe /u https://dns.google/dns-query /b 1.1.
 netsh interface ip set dns name="%_interface%" static 127.0.0.1
 ```
 - You can set DNS to default configuration via Default-DHCP-DNS.bat
-#### Question 2
-Answer 2
+#### How can i check if DNS Service works fine?
+- Check [DNS Leak Test](https://www.dnsleaktest.com)
 
 ## Badges
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
